@@ -1,0 +1,104 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,"Giữ unknown vì đèn NIR chủ động làm tối nền, không chắc ngày hay đêm"
+D01.png,frame_meta,modality,khác giá trị,ir,rgb,mine,"3, 4.3-1",Giữ ir (Drive&Act là ảnh NIR thật); góp ý bạn sửa thành ir
+D01.png,face,eye_left,khác giá trị (IoU=0.61),unknown,open,mine,"4.4-1, 4.5",Giữ unknown do đốm phản xạ LED NIR trên tròng kính hoặc bóng tối che khe mắt
+D01.png,face,eye_right,khác giá trị (IoU=0.61),unknown,open,mine,"4.4-1, 4.5",Giữ unknown do đốm phản xạ LED NIR trên tròng kính hoặc bóng tối che khe mắt
+D01.png,face,gaze_zone,khác giá trị (IoU=0.61),other,road,mine,4.5,"Giữ other vì đầu tài xế quay lệch sang bên khi vươn người, không nhìn đường"
+D01.png,hand,on_wheel,khác giá trị (IoU=0.94),no,yes,mine,"3, 4.7","Giữ no (tay tài xế vươn về phía trước, không cầm vô lăng)"
+D01.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D01.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D01.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D01.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D01.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D01.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D02.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,"Giữ unknown vì đèn NIR chủ động làm tối nền, không chắc ngày hay đêm"
+D02.png,frame_meta,modality,khác giá trị,ir,rgb,mine,"3, 4.3-1",Giữ ir (Drive&Act là ảnh NIR thật); góp ý bạn sửa thành ir
+D02.png,face,eye_left,khác giá trị (IoU=0.66),unknown,open,mine,"4.4-1, 4.5",Giữ unknown do đốm phản xạ LED NIR trên tròng kính hoặc bóng tối che khe mắt
+D02.png,face,eye_right,khác giá trị (IoU=0.66),unknown,open,mine,"4.4-1, 4.5",Giữ unknown do đốm phản xạ LED NIR trên tròng kính hoặc bóng tối che khe mắt
+D02.png,face,gaze_zone,khác giá trị (IoU=0.66),road,other,ambiguous,4.5,Đầu hướng về phía kính chắn gió nhưng mắt bị chói LED khi uống nước; tạm giữ road
+D02.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D02.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D02.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D02.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D02.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D02.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D02.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D02.png,face13,lip_upper.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì cổ chai nước che mép môi trên
+D03.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,"Giữ unknown vì đèn NIR chủ động làm tối nền, không chắc ngày hay đêm"
+D03.png,frame_meta,modality,khác giá trị,ir,rgb,mine,"3, 4.3-1",Giữ ir (Drive&Act là ảnh NIR thật); góp ý bạn sửa thành ir
+D03.png,face,eye_left,khác giá trị (IoU=0.64),unknown,open,mine,"4.4-1, 4.5",Giữ unknown do đốm phản xạ LED NIR trên tròng kính hoặc bóng tối che khe mắt
+D03.png,face,eye_right,khác giá trị (IoU=0.64),unknown,open,mine,"4.4-1, 4.5",Giữ unknown do đốm phản xạ LED NIR trên tròng kính hoặc bóng tối che khe mắt
+D03.png,face,gaze_zone,khác giá trị (IoU=0.64),lap,center,mine,4.5,"Giữ lap vì tài xế cúi nhìn xuống vùng đùi/khóa dây an toàn, không nhìn màn hình giữa"
+D03.png,person,seatbelt,khác giá trị (IoU=0.81),unknown,worn_correct,mine,4.7,Giữ unknown vì tài xế đang cầm khóa thắt dở dây an toàn (guideline §4.7)
+D03.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D03.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D03.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D03.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D03.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D04.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,"Giữ unknown vì đèn NIR chủ động làm tối nền, không chắc ngày hay đêm"
+D04.png,frame_meta,modality,khác giá trị,ir,rgb,mine,"3, 4.3-1",Giữ ir (Drive&Act là ảnh NIR thật); góp ý bạn sửa thành ir
+D04.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.49,,both_wrong,"4.1, 4.4-5","v1 hụt nhẹ vùng cằm (x1=1008) còn peer cắt thiếu vùng tai (y2=466); đã căn lại box face ôm sát trán-cằm, tai-tai trong export_final_v2.zip"
+D04.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.38,,peer,"4.1, 4.4-5",Hộp tay trái ở v1 bị lệch và cắt thiếu vùng ngón/cổ tay; đã sửa lại khớp vùng tay trái trong export_final_v2.zip
+D04.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,both_wrong,"4.1, 4.4-5","v1 hụt nhẹ vùng cằm (x1=1008) còn peer cắt thiếu vùng tai (y2=466); đã căn lại box face ôm sát trán-cằm, tai-tai trong export_final_v2.zip"
+D04.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,peer,"4.1, 4.4-5",Hộp tay trái ở v1 bị lệch và cắt thiếu vùng ngón/cổ tay; đã sửa lại khớp vùng tay trái trong export_final_v2.zip
+D04.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D04.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D04.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D04.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D04.png,face13,right_eye_outer.occluded,khác cờ,1,0,ambiguous,4.6,Góc mặt nghiêng gần khuất mắt phải: giữ occluded=1 (đoán được theo viền kính) và ghi ca hỏi coach về ranh giới occluded vs outside
+D04.png,face13,right_eye_outer.outside,khác cờ,0,1,ambiguous,4.6,Góc mặt nghiêng gần khuất mắt phải: giữ occluded=1 (đoán được theo viền kính) và ghi ca hỏi coach về ranh giới occluded vs outside
+D04.png,face13,right_eye_inner.occluded,khác cờ,1,0,ambiguous,4.6,Góc mặt nghiêng gần khuất mắt phải: giữ occluded=1 (đoán được theo viền kính) và ghi ca hỏi coach về ranh giới occluded vs outside
+D04.png,face13,right_eye_inner.outside,khác cờ,0,1,ambiguous,4.6,Góc mặt nghiêng gần khuất mắt phải: giữ occluded=1 (đoán được theo viền kính) và ghi ca hỏi coach về ranh giới occluded vs outside
+D04.png,face13,right_eye_upper.occluded,khác cờ,1,0,ambiguous,4.6,Góc mặt nghiêng gần khuất mắt phải: giữ occluded=1 (đoán được theo viền kính) và ghi ca hỏi coach về ranh giới occluded vs outside
+D04.png,face13,right_eye_upper.outside,khác cờ,0,1,ambiguous,4.6,Góc mặt nghiêng gần khuất mắt phải: giữ occluded=1 (đoán được theo viền kính) và ghi ca hỏi coach về ranh giới occluded vs outside
+D04.png,face13,right_eye_lower.occluded,khác cờ,1,0,ambiguous,4.6,Góc mặt nghiêng gần khuất mắt phải: giữ occluded=1 (đoán được theo viền kính) và ghi ca hỏi coach về ranh giới occluded vs outside
+D04.png,face13,right_eye_lower.outside,khác cờ,0,1,ambiguous,4.6,Góc mặt nghiêng gần khuất mắt phải: giữ occluded=1 (đoán được theo viền kính) và ghi ca hỏi coach về ranh giới occluded vs outside
+D04.png,face13,mouth_right.occluded,khác cờ,0,1,ambiguous,4.6,"Khóe miệng phải ở mép mặt nghiêng: tạm giữ occluded=0, đã chỉnh lại tọa độ miệng trong export_final_v2.zip"
+D05.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,"Giữ unknown vì đèn NIR chủ động làm tối nền, không chắc ngày hay đêm"
+D05.png,frame_meta,modality,khác giá trị,ir,rgb,mine,"3, 4.3-1",Giữ ir (Drive&Act là ảnh NIR thật); góp ý bạn sửa thành ir
+D05.png,hand,on_wheel,khác giá trị (IoU=0.80),no,unknown,mine,4.7,Giữ no (hai tay thấy rõ đang cầm điện thoại và đặt trên đùi)
+D05.png,face,eye_left,khác giá trị (IoU=0.65),unknown,open,mine,"4.4-1, 4.5",Giữ unknown do đốm phản xạ LED NIR trên tròng kính hoặc bóng tối che khe mắt
+D05.png,face,eye_right,khác giá trị (IoU=0.65),unknown,open,mine,"4.4-1, 4.5",Giữ unknown do đốm phản xạ LED NIR trên tròng kính hoặc bóng tối che khe mắt
+D05.png,person,seatbelt,khác giá trị (IoU=0.90),worn_correct,unknown,mine,4.7,Giữ worn_correct vì dải dây an toàn chéo từ vai trái xuống hông phải hiện rất rõ
+D05.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D05.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D05.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D05.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D05.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D05.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D05.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 vì điểm mắt bị đốm LED hoặc gọng kính/bóng tối che; đã tinh chỉnh lại tọa độ face13 ở export_final_v2.zip
+D06.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-1,"Giữ unknown vì đèn NIR chủ động làm tối nền, không chắc ngày hay đêm"
+D06.png,frame_meta,modality,khác giá trị,ir,rgb,mine,"3, 4.3-1",Giữ ir (Drive&Act là ảnh NIR thật); góp ý bạn sửa thành ir
+D06.png,person,seatbelt,khác giá trị (IoU=0.89),worn_correct,unknown,mine,4.7,Giữ worn_correct vì dải dây an toàn chéo từ vai trái xuống hông phải hiện rất rõ
+S01_rgb.png,child_seat,occupied,khác giá trị (IoU=0.98),unknown,no,mine,"4.4-1, 4.8","Giữ unknown trên S01_rgb do lòng ghế rear_left chìm trong bóng tối, không suy từ S01_ir"
+S02_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,"3, 4.8",Cảnh có em bé trong nôi trái với mô tả §3; tạm giữ box infant_seat (không vẽ person) và đưa vào ca hỏi coach
+S02_ir.png,face,eye_left,khác giá trị (IoU=0.70),unknown,open,mine,4.1,Giữ mặc định (unknown/other) vì bảng 4.1 quy định OMS chỉ vẽ box face
+S02_ir.png,face,eye_right,khác giá trị (IoU=0.70),unknown,open,mine,4.1,Giữ mặc định (unknown/other) vì bảng 4.1 quy định OMS chỉ vẽ box face
+S02_ir.png,face,gaze_zone,khác giá trị (IoU=0.70),other,mirror_c,mine,4.1,Giữ mặc định (unknown/other) vì bảng 4.1 quy định OMS chỉ vẽ box face
+S02_ir.png,face,glasses,khác giá trị (IoU=0.70),unknown,none,mine,4.1,Giữ mặc định (unknown/other) vì bảng 4.1 quy định OMS chỉ vẽ box face
+S02_rgb.png,face,eye_left,khác giá trị (IoU=0.71),unknown,open,mine,4.1,Giữ mặc định (unknown/other) vì bảng 4.1 quy định OMS chỉ vẽ box face
+S02_rgb.png,face,eye_right,khác giá trị (IoU=0.71),unknown,open,mine,4.1,Giữ mặc định (unknown/other) vì bảng 4.1 quy định OMS chỉ vẽ box face
+S02_rgb.png,face,gaze_zone,khác giá trị (IoU=0.71),other,mirror_c,mine,4.1,Giữ mặc định (unknown/other) vì bảng 4.1 quy định OMS chỉ vẽ box face
+S02_rgb.png,face,glasses,khác giá trị (IoU=0.71),unknown,none,mine,4.1,Giữ mặc định (unknown/other) vì bảng 4.1 quy định OMS chỉ vẽ box face
+S02_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,"3, 4.8",Cảnh có em bé trong nôi trái với mô tả §3; tạm giữ box infant_seat (không vẽ person) và đưa vào ca hỏi coach
+S03_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,"4.2, 4.8",Giữ box đồ vật (cốc ở rear_right và ba lô ở rear_middle); bạn bỏ sót đồ vật trên ghế
+S03_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,"4.2, 4.8",Giữ box đồ vật (cốc ở rear_right và ba lô ở rear_middle); bạn bỏ sót đồ vật trên ghế
+S03_ir.png,child_seat,occupied,khác giá trị (IoU=0.92),unknown,yes,mine,"4.1, 4.8",Giữ unknown vì schema không có giá trị yes; đồng thời ghi vào danh sách hỏi coach về trẻ em ngồi trong ghế
+S03_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,"4.2, 4.8",Giữ box đồ vật (cốc ở rear_right và ba lô ở rear_middle); bạn bỏ sót đồ vật trên ghế
+S03_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,"4.2, 4.8",Giữ box đồ vật (cốc ở rear_right và ba lô ở rear_middle); bạn bỏ sót đồ vật trên ghế
+S03_rgb.png,child_seat,occupied,khác giá trị (IoU=0.91),unknown,yes,mine,"4.1, 4.8",Giữ unknown vì schema không có giá trị yes; đồng thời ghi vào danh sách hỏi coach về trẻ em ngồi trong ghế
+S04_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.38,,mine,4.1,Giữ box không bao gồm phần tóc phía trên (peer ôm cả đỉnh tóc y=72); đã nới nhẹ vùng má S04_rgb trong export_final_v2.zip
+S04_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1,Giữ box không bao gồm phần tóc phía trên (peer ôm cả đỉnh tóc y=72); đã nới nhẹ vùng má S04_rgb trong export_final_v2.zip
+S04_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.38,,mine,4.1,Giữ box không bao gồm phần tóc phía trên (peer ôm cả đỉnh tóc y=72); đã nới nhẹ vùng má S04_rgb trong export_final_v2.zip
+S04_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1,Giữ box không bao gồm phần tóc phía trên (peer ôm cả đỉnh tóc y=72); đã nới nhẹ vùng má S04_rgb trong export_final_v2.zip
+S05_ir.png,child_seat,occupied,khác giá trị (IoU=0.97),unknown,yes,mine,"4.1, 4.8",Giữ unknown vì schema không có giá trị yes; đồng thời ghi vào danh sách hỏi coach về trẻ em ngồi trong ghế
+S05_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giữ đủ 2 box child_seat (rear_right và rear_left); bạn thiếu 1 ghế
+S05_rgb.png,child_seat,occupied,khác giá trị (IoU=0.97),unknown,yes,mine,"4.1, 4.8",Giữ unknown vì schema không có giá trị yes; đồng thời ghi vào danh sách hỏi coach về trẻ em ngồi trong ghế
+S05_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giữ đủ 2 box child_seat (rear_right và rear_left); bạn thiếu 1 ghế
+S06_ir.png,child_seat,occupied,khác giá trị (IoU=0.98),no,unknown,mine,4.8,Giữ no vì ghế rear_right sáng và thấy rõ mặt đệm trống trên cả RGB lẫn IR
+S06_rgb.png,child_seat,occupied,khác giá trị (IoU=0.98),no,unknown,mine,4.8,Giữ no vì ghế rear_right sáng và thấy rõ mặt đệm trống trên cả RGB lẫn IR
+S06_rgb.png,object,type,khác giá trị (IoU=0.94),other,bag,ambiguous,"4.4-1, 4.8",Trên S06_rgb gốc ba lô chìm trong bóng tối khó phân biệt chi tiết nên tạm giữ other (chỉ ghi bag trên S06_ir)
+S07_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,"3, 4.8",Cảnh có em bé trong nôi trái với mô tả §3; tạm giữ box infant_seat (không vẽ person) và đưa vào ca hỏi coach
+S07_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,"3, 4.8",Cảnh có em bé trong nôi trái với mô tả §3; tạm giữ box infant_seat (không vẽ person) và đưa vào ca hỏi coach
+S08_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,"3, 4.8",Cảnh có em bé trong nôi trái với mô tả §3; tạm giữ box infant_seat (không vẽ person) và đưa vào ca hỏi coach
+S08_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,"3, 4.8",Cảnh có em bé trong nôi trái với mô tả §3; tạm giữ box infant_seat (không vẽ person) và đưa vào ca hỏi coach
